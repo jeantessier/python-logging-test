@@ -1,0 +1,5 @@
+# Cached Python precompiled objects
+__pycache__
+
+# IDE files
+.idea
