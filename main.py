@@ -2,6 +2,7 @@ import logging
 
 from my_class import MyClass
 from other.other_class import OtherClass
+from deeply.nested.package.package_class import PackageClass
 
 
 def main():
@@ -13,6 +14,9 @@ def main():
 
     other_class = OtherClass()
     other_class.bar()
+
+    package_class = PackageClass()
+    package_class.baz()
 
 
 if __name__ == "__main__":
