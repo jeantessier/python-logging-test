@@ -11,6 +11,7 @@ def main():
 
     my_class = MyClass()
     my_class.foo()
+    my_class.foo_with_exception()
 
     other_class = OtherClass()
     other_class.bar()
