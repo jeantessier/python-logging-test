@@ -19,6 +19,24 @@ def main():
     package_class = PackageClass()
     package_class.baz()
 
+    my_s = my_class.stack()
+    print(f"{my_s=}")
+    for f in my_s:
+        print(f"    {f}")
+    print(f"{len(my_s)=}")
+    print()
+
+    other_s = other_class.stack()
+    print(f"{other_s=}")
+    for f in other_s:
+        print(f"    {f}")
+    print(f"{len(other_s)=}")
+    print()
+
+    my_fn = my_class.func_name()
+    print(f"{my_fn=}")
+    print()
+
 
 if __name__ == "__main__":
     main()
